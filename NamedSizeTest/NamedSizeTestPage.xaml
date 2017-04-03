@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="NamedSizeTest.NamedSizeTestPage">
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Micro" Style="{StaticResource MicroLabelStyle}"/>
+		<Label Text="Small" Style="{StaticResource SmallLabelStyle}"/>
+		<Label Text="Default" Style="{StaticResource DefaultLabelStyle}"/>
+		<Label Text="Medium" Style="{StaticResource MediumLabelStyle}"/>
+		<Label Text="Large" Style="{StaticResource LargeLabelStyle}"/>
+	</StackLayout>
+</ContentPage>

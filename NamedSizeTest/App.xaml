@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="NamedSizeTest.App">
+	<Application.Resources>
+		<ResourceDictionary>
+			<Style x:Key="MicroLabelStyle"
+				TargetType="Label">
+				<Setter Property="TextColor"
+					Value="Purple"/>
+				<Setter Property="FontSize">
+					<OnPlatform x:TypeArguments="x:String"
+						Android="Micro"
+						iOS="Micro"
+						WinPhone="Micro"/>
+				</Setter>
+			</Style>
+			<Style x:Key="SmallLabelStyle"
+				TargetType="Label">
+				<Setter Property="TextColor"
+					Value="Red"/>
+				<Setter Property="FontSize">
+					<OnPlatform x:TypeArguments="x:String"
+						Android="Small"
+						iOS="Small"
+						WinPhone="Small"/>
+				</Setter>
+			</Style>
+			<Style x:Key="DefaultLabelStyle"
+				TargetType="Label">
+				<Setter Property="TextColor"
+					Value="Orange"/>
+				<Setter Property="FontSize">
+					<OnPlatform x:TypeArguments="x:String"
+						Android="Default"
+						iOS="Default"
+						WinPhone="Default"/>
+				</Setter>
+			</Style>
+			<Style x:Key="MediumLabelStyle"
+				TargetType="Label">
+				<Setter Property="TextColor"
+					Value="Green"/>
+				<Setter Property="FontSize">
+					<OnPlatform x:TypeArguments="x:String"
+						Android="Medium"
+						iOS="Medium"
+						WinPhone="Medium"/>
+				</Setter>
+			</Style>
+			<Style x:Key="LargeLabelStyle"
+				TargetType="Label">
+				<Setter Property="TextColor"
+					Value="Blue"/>
+				<Setter Property="FontSize">
+					<OnPlatform x:TypeArguments="x:String"
+						Android="Large"
+						iOS="Large"
+						WinPhone="Large"/>
+				</Setter>
+			</Style>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>
