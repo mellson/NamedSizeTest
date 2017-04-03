@@ -1,5 +1,5 @@
 # NamedSizeTest
-Xamarin Project for showcasing a problem with Named Font Sizes not being applied
+Xamarin Project for showcasing a problem with Named Font Sizes not being applied correctly to the Label element.
 
 There are styles for each font size enum in `App.xaml`
 I have tried using two different `TypeArguments` - both have no effect:
