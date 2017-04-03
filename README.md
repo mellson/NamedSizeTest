@@ -28,3 +28,9 @@ and
 
 Named font sizing are currently not being applied correctly in Xamarin Forms.
 Small discussion about it here: https://forums.xamarin.com/discussion/comment/263548
+
+When you run the app you will see that it looks like this:
+![](https://github.com/appbureauet/NamedSizeTest/raw/master/Style1.png)
+
+When it actually should look like this:
+![](https://github.com/appbureauet/NamedSizeTest/raw/master/Style2.png)
